@@ -1,2 +1,3 @@
-# aashna-kulshrestha
-My little nook of the internet :)
+# Welcome to your Lovable project
+
+TODO: Document your project here
