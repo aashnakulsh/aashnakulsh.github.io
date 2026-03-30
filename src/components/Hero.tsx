@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import portraitImg from "@/assets/portrait-placeholder.jpg";
+// import portraitImg from "@/assets/Headshot.jpg";
 
 const tags = ["Research", "Systems", "HCI", "VR", "Development"];
 
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             <p className="font-display text-xl md:text-2xl text-muted-foreground italic leading-relaxed max-w-lg">
-              I'm a junior computer scientist who wants to leave the world a better place than how I found it.
+              I want what I make to be easy to live with and difficult to forget.
             </p>
 
             <p className="font-body text-base text-muted-foreground leading-relaxed max-w-md">
@@ -85,7 +85,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-secondary/60 rounded-lg -rotate-2" />
               <div className="absolute -inset-2 bg-card rounded-lg rotate-1" />
               <img
-                src={portraitImg}
+                src={"@/assets/Headshot.jpg"}
                 alt="Aashna Kulshrestha — portrait"
                 className="relative rounded-lg w-full aspect-[4/5] object-cover shadow-elevated"
                 width={640}
