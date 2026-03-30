@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// import portraitImg from "@/assets/Headshot.jpg";
+import portraitImg from "@/assets/Headshot.png";
 
 const tags = ["Research", "Systems", "HCI", "VR", "Development"];
 
@@ -44,8 +44,13 @@ const Hero = () => {
             </p>
 
             <p className="font-body text-base text-muted-foreground leading-relaxed max-w-md">
-              Building at the intersection of human-centered design and technical systems.
-              I care about making technology that's thoughtful, accessible, and genuinely useful — not just functional.
+              {/* Building at the intersection of technical systems and human experience. 
+              I care about making technology that’s thoughtful, accessible, and genuinely useful — not just functional. */}
+              Building at the intersection of technical systems and human experience. 
+              I care about technology that is innovative and future-orientated — built in service of the people and communities it touches, not just the problems it solves.
+                <br /><br />
+
+              Hello! I'm a junior Computer Science & HCI student at Carnegie Mellon University. Welcome to my little nook of the internet!
             </p>
 
             <div className="flex flex-wrap gap-2 pt-1">
@@ -65,7 +70,7 @@ const Hero = () => {
                 <ArrowDown className="ml-1 h-4 w-4" />
               </Button>
               <Button variant="outline" size="lg" className="font-body" asChild>
-                <a href="/resume.pdf" download>
+                <a href="/akulshrestha_resume.pdf" download>
                   <FileText className="mr-1 h-4 w-4" />
                   Resume
                 </a>
@@ -85,7 +90,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-secondary/60 rounded-lg -rotate-2" />
               <div className="absolute -inset-2 bg-card rounded-lg rotate-1" />
               <img
-                src={"@/assets/Headshot.jpg"}
+                src={portraitImg}
                 alt="Aashna Kulshrestha — portrait"
                 className="relative rounded-lg w-full aspect-[4/5] object-cover shadow-elevated"
                 width={640}
