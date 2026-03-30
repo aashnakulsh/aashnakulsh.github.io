@@ -30,7 +30,7 @@ const Hero = () => {
           >
             <div className="space-y-3">
               <p className="text-sm font-body tracking-widest uppercase text-muted-foreground">
-                Portfolio — 2025
+                Portfolio — 2026
               </p>
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.05] tracking-tight">
                 Aashna
@@ -47,7 +47,7 @@ const Hero = () => {
               {/* Building at the intersection of technical systems and human experience. 
               I care about making technology that’s thoughtful, accessible, and genuinely useful — not just functional. */}
               Building at the intersection of technical systems and human experience. 
-              I care about technology that is innovative and future-orientated — built in service of the people and communities it touches, not just the problems it solves.
+              I care about technology that is innovative and future-oriented — built in service of the people and communities it touches, not just the problems it solves.
                 <br /><br />
 
               Hello! I'm a junior Computer Science & HCI student at Carnegie Mellon University. Welcome to my little nook of the internet!
