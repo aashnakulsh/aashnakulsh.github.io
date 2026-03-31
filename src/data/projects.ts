@@ -168,11 +168,14 @@ export interface Project {
   image?: string;
   links?: ProjectLink[];
 }
-
+// Categories: 
+// VR / XR / AR
+// Backend / Systems
+// Startup
 export const projects: Project[] = [
   {
     title: "Research Assistant — Augmented Perception Lab",
-    category: "VR / Research",
+    category: "VR / XR / AR",
     description:
       "VR research on hand-tracked reach-and-touch interaction and neural response. Built Unity study scenes, synchronized Quest 3 with EEG pipelines, and ran P300 experiments to study how interaction timing affects signal quality.",
     skills: [
@@ -202,7 +205,7 @@ export const projects: Project[] = [
   },
   {
     title: "Experiencing the World of the Blind",
-    category: "XR / Accessibility",
+    category: "VR / XR / AR",
     description:
       "Quest-based accessibility prototype simulating vision impairments and assistive navigation. Implemented multi-stage shader pipelines, audio and haptic cane feedback, and spatial interaction systems for obstacle awareness across 4 vision modes.",
     skills: [
@@ -222,7 +225,7 @@ export const projects: Project[] = [
   },
   {
     title: "Malloc Lab",
-    category: "Systems / C",
+    category: "Backend / Systems",
     description:
       "Custom memory allocator in C implementing malloc, free, realloc, and calloc. Designed explicit and segregated free lists with coalescing strategies, built a heap checker for correctness, and balanced throughput against fragmentation under systems constraints.",
     skills: [
@@ -236,7 +239,7 @@ export const projects: Project[] = [
   },
   {
     title: "Co-Founder — Goalden",
-    category: "Startup / Product",
+    category: "Startup",
     description:
       "Early-stage product focused on goal-setting and skill development. Led a 5-person team, ran 150+ user interviews, built a Wix-based prototype, and iterated on product direction through structured customer discovery.",
     skills: [
@@ -255,7 +258,7 @@ export const projects: Project[] = [
   },
   {
     title: "Full-Stack Software Engineer — Osophy",
-    category: "AR / Game Development",
+    category: "VR / XR / AR",
     description:
       "Multiplayer AR card game with real-time cooperative play. Built backend game logic and synchronization systems in Unity/C#, implemented scene transitions and player actions, and supported consistent state across multiple players.",
     skills: [
@@ -269,7 +272,7 @@ export const projects: Project[] = [
   },
   {
     title: "Ratatouille — Tartan Hacks",
-    category: "XR / Interaction",
+    category: "VR / XR / AR",
     description:
       "XR interaction prototype with step-by-step guidance and backend feedback. Built a state-driven interaction loop with screenshot capture, integrated Quest input with local server APIs, and connected real-time responses to the user flow.",
     skills: [
