@@ -67,10 +67,10 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           {displayTools.join(" · ")}
         </p>
 
-        {/* Impact — single line */}
+        {/* Impact — single line
         <p className="text-xs font-body text-muted-foreground italic line-clamp-2">
           {project.impact}
-        </p>
+        </p> */}
 
         {/* Link buttons */}
         {project.links && project.links.length > 0 && (
