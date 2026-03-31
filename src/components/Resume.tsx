@@ -176,7 +176,7 @@ const Resume = () => {
           transition={{ duration: 0.4, delay: 0.3 }}
         >
           <Button size="lg" className="font-body" asChild>
-            <a href="/akulshrestha_resume.pdf" download>
+            <a href="/resume.pdf" download>
               <FileText className="mr-2 h-4 w-4" />
               Download Full Resume
             </a>
