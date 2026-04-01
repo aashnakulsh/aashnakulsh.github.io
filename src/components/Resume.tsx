@@ -698,7 +698,7 @@ const Resume = () => {
           className="text-center mt-8"
         >
           <Button size="lg" className="font-body" asChild>
-            <a href="/resume.pdf" download>
+            <a href="/akulshrestha_resume.pdf" download>
               <FileText className="mr-2 h-4 w-4" />
               Download Full Resume
             </a>

@@ -24,7 +24,7 @@ const Contact = () => {
 
           <div className="flex items-center justify-center gap-4 pt-4">
             <a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/aashna-kulshrestha/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-border bg-card text-foreground font-body text-sm hover:bg-secondary hover:border-primary/20 transition-colors duration-200 shadow-card"
@@ -34,7 +34,7 @@ const Contact = () => {
               <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:aashna.kulsh@gmail.com"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-border bg-card text-foreground font-body text-sm hover:bg-secondary hover:border-primary/20 transition-colors duration-200 shadow-card"
             >
               <Mail className="h-4 w-4 text-primary" />
