@@ -142,14 +142,17 @@ const Hero = () => {
             </div>
 
             <p className="font-display text-xl md:text-2xl text-muted-foreground italic leading-relaxed max-w-lg">
-              I want what I make to be easy to live with and difficult to forget.
+              {/* I want what I make to be easy to live with and difficult to forget. */}
+              I strive to solve technically complex problems without losing sight of those living with the result.
             </p>
 
             <p className="font-body text-base text-muted-foreground leading-relaxed max-w-md">
               {/* Building at the intersection of technical systems and human experience. 
               I care about making technology that’s thoughtful, accessible, and genuinely useful — not just functional. */}
-              Building at the intersection of technical systems and human experience. 
-              I care about technology that is innovative and future-oriented — built in service of the people and communities it touches, not just the problems it solves.
+              {/* Building at the intersection of technical systems and human experience. 
+              I care about technology that is innovative and future-oriented — built in service of the people and communities it touches, not just the problems it solves. */}
+                Building at the intersection of technical systems and human experience. I'm drawn to the challenge of complex systems and difficult questions.
+                 I do my best technical work when asked for rigor, curiosity, and thoughtfulness beyond the product — to the communities it affects.
                 <br /><br />
 
               Hello! I'm a junior Computer Science & HCI student at Carnegie Mellon University. Welcome to my little nook of the internet!
