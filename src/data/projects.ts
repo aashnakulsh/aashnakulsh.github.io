@@ -19,8 +19,9 @@ export const projects: Project[] = [
     title: "Research Assistant — Augmented Perception Lab",
     category: "VR / XR / AR",
     description:
-      "Built and designed VR study scenes with handtracking to study P300 signals in VR via an oddball paradigm. Synchronized Quest 3 with EEG pipelines and ran human studies.",
-    skills: [
+      // "Built and designed VR study scenes with handtracking to study P300 signals in VR via an oddball paradigm. Synchronized Quest 3 with EEG pipelines and ran human studies.",
+        "I designed + piloted an immersive VR and electroencephalography paradigm to measure how the brain responds when expected touch fails. Broadly, the impact is towards more sensitive neural evaluation of VR realism, multisensory design, + HCI.",
+      skills: [
       "Experiment design",
       "XR prototyping",
       "Signal collection",
