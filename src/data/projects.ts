@@ -28,7 +28,7 @@ export const projects: Project[] = [
     ],
     tools: ["Unity", "C#", "Quest 3", "EEG", "Research", "Interaction SDK"],
     featured: true,
-    image: "/public/thumbnails/ResearchAssistant_APL_thumbnail.jpeg",
+    image: "/public/thumbnails/ResearchAssistant_APL_thumbnail.JPEG",
 
     links: [{ label: "Lab Site", url: "https://augmented-perception.org/" }],
   },
@@ -134,7 +134,7 @@ export const projects: Project[] = [
       "Feedback design",
     ],
     tools: ["Unity", "TextMeshPro", "XR Interaction", "Local server APIs"],
-    image: "/thumbnails/Ratatouille_thumbnail.png",
+    image: "/public/thumbnails/Ratatouille_thumbnail.png",
     links: [
       { label: "GitHub", url: "https://github.com/aashnakulsh/Ratatouille" },
     ],
@@ -166,7 +166,7 @@ export const projects: Project[] = [
     "Cache design",
   ],
   tools: ["C", "Sockets", "HTTP", "Pthreads"],
-    image: "/public/thumbnails/Proxylab-thumbnail.png",
+    image: "/public/thumbnails/ProxyLab-thumbnail.png",
 },
 {
   title: "Cache Lab",
