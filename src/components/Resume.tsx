@@ -270,27 +270,56 @@ const Resume = () => {
                 />
                 {/* Card */}
                 <div
-                  className={`absolute border border-border/60 rounded bg-background shadow-sm flex flex-col justify-center ${
+                  // className={`absolute border border-border/60 rounded bg-background shadow-sm flex flex-col justify-center ${
+                  //   isLeft ? "text-right" : "text-left"
+                  className={`absolute border border-border/60 rounded bg-background shadow-sm flex flex-col justify-start ${
                     isLeft ? "text-right" : "text-left"
                   }`}
+                //   style={{
+                //     top: cardTop,
+                //     left: cardLeft,
+                //     width: CARD_WIDTH,
+                //     minHeight: cardHeight,
+                //     padding: "8px 12px",
+                //   }}
+                // >
+                //   <p className="text-[11px] font-body text-primary/80 tracking-wide uppercase leading-none mb-0.5">
+                //     {entry.period}
+                //   </p>
+                //   <h4 className="font-display text-[14px] text-foreground leading-tight">
+                //     {entry.role}
+                //   </h4>
+                //   <p className="text-[12px] font-body text-muted-foreground leading-tight">
+                //     {entry.org}
+                //   </p>
+                // </div>
+                style={{
+                  top: cardTop,
+                  left: cardLeft,
+                  width: CARD_WIDTH,
+                  minHeight: cardHeight,
+                  padding: "10px 14px",
+                }}
+              >
+                <div
+                  className="absolute top-0 bottom-0 w-1 bg-primary/35 rounded-full"
                   style={{
-                    top: cardTop,
-                    left: cardLeft,
-                    width: CARD_WIDTH,
-                    minHeight: cardHeight,
-                    padding: "8px 12px",
+                    [isLeft ? "right" : "left"]: 0,
                   }}
-                >
-                  <p className="text-[11px] font-body text-primary/80 tracking-wide uppercase leading-none mb-0.5">
-                    {entry.period}
-                  </p>
-                  <h4 className="font-display text-[14px] text-foreground leading-tight">
-                    {entry.role}
-                  </h4>
-                  <p className="text-[12px] font-body text-muted-foreground leading-tight">
-                    {entry.org}
-                  </p>
-                </div>
+                />
+
+                <p className="text-[12px] font-body text-primary/80 tracking-wide uppercase leading-none mb-0.5">
+                  {entry.period}
+                </p>
+
+                <h4 className="font-display text-[15px] text-foreground leading-tight">
+                  {entry.role}
+                </h4>
+
+                <p className="text-[13px] font-body text-muted-foreground leading-tight">
+                  {entry.org}
+                </p>
+              </div>
               </motion.div>
             );
           })}
