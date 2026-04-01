@@ -175,7 +175,12 @@ const Hero = () => {
                 <ArrowDown className="ml-1 h-4 w-4" />
               </Button>
               <Button variant="outline" size="lg" className="font-body" asChild>
-                <a href="/akulshrestha_resume.pdf" download>
+                {/* <a href="/akulshrestha_resume.pdf" download> */}
+                <a
+                  href="/akulshrestha_resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FileText className="mr-1 h-4 w-4" />
                   Resume
                 </a>

@@ -363,7 +363,11 @@ const Resume = () => {
           className="text-center mt-8 md:mt-16"
         >
           <Button size="lg" className="font-body" asChild>
-            <a href="/akulshrestha_resume.pdf" download>
+                <a
+                  href="/akulshrestha_resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
               <FileText className="mr-2 h-4 w-4" />
               Download Full Resume
             </a>
