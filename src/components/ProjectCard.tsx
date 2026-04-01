@@ -53,7 +53,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </span>
 
         {/* Title */}
-        <h3 className="font-display text-lg text-foreground group-hover:text-primary transition-colors duration-200">
+        <h3 className="font-semibold font-display text-lg text-foreground group-hover:text-primary transition-colors duration-200">
           {project.title}
         </h3>
 
