@@ -19,7 +19,6 @@ const Contact = () => {
             Let's connect.
           </h2>
           <p className="font-body text-muted-foreground max-w-md mx-auto leading-relaxed">
-            I'm always open to thoughtful conversations — whether about research, internships, collaborations, or interesting problems worth solving.
           </p>
 
           <div className="flex items-center justify-center gap-4 pt-4">
