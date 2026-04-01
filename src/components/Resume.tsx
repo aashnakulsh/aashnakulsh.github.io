@@ -13,8 +13,8 @@ interface TimelineEntry {
   side: "left" | "right";
 }
 
-const NOW_YEAR = 2025;
-const NOW_MONTH = 4;
+const NOW_YEAR = 2026;
+const NOW_MONTH = 3;
 
 const timelineEntries: TimelineEntry[] = [
     {
@@ -23,7 +23,7 @@ const timelineEntries: TimelineEntry[] = [
     period: "Jan 2026 — Present",
     startMonth: 1,
     startYear: 2026,
-    endMonth: 3,
+    endMonth: 5,
     endYear: 2026,
     side: "right",
   },
@@ -33,17 +33,17 @@ const timelineEntries: TimelineEntry[] = [
     period: "May 2025 — Present",
     startMonth: 5,
     startYear: 2025,
-    endMonth: 3,
+    endMonth: 5,
     endYear: 2026,
     side: "left",
   },
   {
-    role: "Backend Server Developer Intern",
+    role: "Backend Dev Intern",
     org: "Castix LLC.",
     period: "Aug 2025 — Jan 2025",
     startMonth: 9,
     startYear: 2025,
-    endMonth: 10,
+    endMonth: 12,
     endYear: 2025,
     side: "right",
   },
