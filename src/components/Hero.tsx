@@ -118,9 +118,10 @@ const Hero = () => {
       className="min-h-screen flex items-center relative overflow-hidden pt-20"
     >
       {/* Subtle geometric accent */}
-      <div className="absolute top-20 right-0 w-[500px] h-[500px] rounded-full bg-secondary/40 blur-3xl -translate-y-1/4 translate-x-1/4 pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-primary/5 blur-2xl translate-y-1/4 -translate-x-1/4 pointer-events-none" />
-
+      {/* <div className="absolute top-20 right-0 w-[500px] h-[500px] rounded-full bg-secondary/40 blur-3xl -translate-y-1/4 translate-x-1/4 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-primary/5 blur-2xl translate-y-1/4 -translate-x-1/4 pointer-events-none" /> */}
+      <div className="hidden md:block absolute top-20 right-0 w-[500px] h-[500px] rounded-full bg-secondary/40 blur-3xl -translate-y-1/4 translate-x-1/4 pointer-events-none" />
+      <div className="hidden md:block absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-primary/5 blur-2xl translate-y-1/4 -translate-x-1/4 pointer-events-none" />
       <div className="max-w-6xl mx-auto w-full section-padding">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Text content — takes 7 cols */}
