@@ -28,7 +28,7 @@ export const projects: Project[] = [
     ],
     tools: ["Unity", "C#", "Quest 3", "EEG", "Research", "Interaction SDK"],
     featured: true,
-    image: "/public/thumbnails/ResearchAssistant_APL_thumbnail.JPEG",
+    image: "/thumbnails/ResearchAssistant_APL_thumbnail.JPEG",
 
     links: [{ label: "Lab Site", url: "https://augmented-perception.org/" }],
   },
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     ],
     tools: ["C", "Linux", "Git"],
     featured: true,
-    image: "/public/thumbnails/ML-thumbnail.png",
+    image: "/thumbnails/ML-thumbnail.png",
     links: [{ label: "Project Site", url: "https://www.medievallands.com/" }],
   },
   {
