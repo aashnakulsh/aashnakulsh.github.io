@@ -99,7 +99,7 @@ const PIXELS_PER_YEAR = 180; // vertical pixels per year of duration
 const MIN_CARD_HEIGHT = 55; // minimum card height in px
 const CARD_WIDTH = 200; // fixed card width
 
-const YEAR_MARKER_SIZE = 57;
+const YEAR_MARKER_SIZE = 58;
 const YEAR_TEXT_SIZE = 35;
 const YEAR_LABEL_WIDTH = 120;
 
@@ -331,7 +331,7 @@ const Resume = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.2 }}
-          className="text-center mt-8"
+          className="text-center mt-8 md:mt-16"
         >
           <Button size="lg" className="font-body" asChild>
             <a href="/akulshrestha_resume.pdf" download>
