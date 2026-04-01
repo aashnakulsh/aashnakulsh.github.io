@@ -62,7 +62,7 @@ export const projects: Project[] = [
     ],
     tools: ["Unity", "Quest 3", "Accessibility"],
     featured: true,
-    image: "/public/thumbnails/WorldOfBlind-thumbnail.png",
+    image: "/thumbnails/WorldOfBlind-thumbnail.png",
     links: [
       {
         label: "GitHub",
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     ],
     tools: ["C", "GDB", "Heap checker"],
     featured: true,
-    image: "/public/thumbnails/Malloc_thumbnail.png",
+    image: "/thumbnails/Malloc_thumbnail.png",
   },
   {
     title: "Goalden Co-Founder — Project Olympus",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
       "Rapid prototyping",
     ],
     tools: ["Wix", "Interviews", "Wireframes"],
-    image: "/public/thumbnails/Goalden-thumbnail.png",
+    image: "/thumbnails/Goalden-thumbnail.png",
     links: [
       {
         label: "Prototype",
@@ -119,7 +119,7 @@ export const projects: Project[] = [
     ],
     tools: ["Unity", "C#", "AR frameworks"],
     featured: true,
-    image: "/public/thumbnails/Osophy-thumbnail.png",
+    image: "/thumbnails/Osophy-thumbnail.png",
     links: [{ label: "GitHub", url: "https://github.com/Raeshana/Osophy" }],
   },
   {
@@ -134,7 +134,7 @@ export const projects: Project[] = [
       "Feedback design",
     ],
     tools: ["Unity", "TextMeshPro", "XR Interaction", "Local server APIs"],
-    image: "/public/thumbnails/Ratatouille_thumbnail.png",
+    image: "/thumbnails/Ratatouille_thumbnail.png",
     links: [
       { label: "GitHub", url: "https://github.com/aashnakulsh/Ratatouille" },
     ],
@@ -152,7 +152,7 @@ export const projects: Project[] = [
   ],
   tools: ["C", "Unix", "GDB"],
   featured: true,
-  image: "/public/thumbnails/TshLab_thumbnail.png",
+  image: "/thumbnails/TshLab_thumbnail.png",
 },
 {
   title: "Proxy Lab",
@@ -166,7 +166,7 @@ export const projects: Project[] = [
     "Cache design",
   ],
   tools: ["C", "Sockets", "HTTP", "Pthreads"],
-    image: "/public/thumbnails/ProxyLab-thumbnail.png",
+    image: "/thumbnails/ProxyLab-thumbnail.png",
 },
 {
   title: "Cache Lab",
@@ -180,7 +180,7 @@ export const projects: Project[] = [
     "Blocking",
   ],
   tools: ["C", "getopt", "gdb"],
-  image: "/public/thumbnails/CacheLab_thumbnail.png",
+  image: "/thumbnails/CacheLab_thumbnail.png",
 },
 {
   title: "Custom Game Controller",
@@ -194,7 +194,7 @@ export const projects: Project[] = [
     "Input mapping",
   ],
   tools: ["Arduino", "Prototype wiring"],
-  image: "/public/thumbnails/GameController-thumbnail.png",
+  image: "/thumbnails/GameController-thumbnail.png",
   links: [
     {
       label: "Demo",
@@ -214,7 +214,7 @@ export const projects: Project[] = [
     "State management",
   ],
   tools: ["Python", "Random level generator", "Custom Physics Collision System"],
-  image: "/public/thumbnails/PogoStink-thumbnail.png",
+  image: "/thumbnails/PogoStink-thumbnail.png",
   links: [{ label: "GitHub", url: "https://github.com/aashnakulsh/PogoStink" }],
 },
 {
@@ -229,7 +229,7 @@ export const projects: Project[] = [
     "Product thinking",
   ],
   tools: ["Figma", "Product Design"],
-  image: "/public/thumbnails/MealPrep-thumbnail.png",
+  image: "/thumbnails/MealPrep-thumbnail.png",
   links: [{label: "Video Demo", url: "https://drive.google.com/file/d/13jr1YLKXNOU-_thxP6WGEyav_d17E686/view?usp=sharing"},
           {label: "Figma Demo", url: "https://www.figma.com/proto/4gKnxKBHejgLyyajYkECTX/Premium-Meal-Prep-App--ITERATED-?node-id=1-230&t=RFAEvIwKzvBhIk5B-1"}]
 },
@@ -245,7 +245,7 @@ export const projects: Project[] = [
     "Hackathon development",
   ],
   tools: ["Python", "OpenCV"],
-    image: "/public/thumbnails/Hack112-thumbnail.png",
+    image: "/thumbnails/Hack112-thumbnail.png",
 },
 {
   title: "2024 AWAP Hackathon",
@@ -259,7 +259,7 @@ export const projects: Project[] = [
     "Adaptive systems",
   ],
   tools: ["Python", "AI", "Computer Vision"],
-    image: "/public/thumbnails/AWAP-thumbnail.png",
+    image: "/thumbnails/AWAP-thumbnail.png",
   links: [{ label: "Hackathon Site", url: "https://awap.acmatcmu.com/" }],
 },
 ];
