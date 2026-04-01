@@ -95,9 +95,55 @@ function toFractional(year: number, month: number): number {
 }
 
 // Calculate layout constants
-const PIXELS_PER_YEAR = 160; // vertical pixels per year of duration
-const MIN_CARD_HEIGHT = 52; // minimum card height in px
-const CARD_WIDTH = 220; // fixed card width
+const PIXELS_PER_YEAR = 180; // vertical pixels per year of duration
+const MIN_CARD_HEIGHT = 55; // minimum card height in px
+const CARD_WIDTH = 200; // fixed card width
+
+const YEAR_MARKER_SIZE = 57;
+const YEAR_TEXT_SIZE = 35;
+const YEAR_LABEL_WIDTH = 120;
+
+const YearMarker = ({ year, top }: { year: number; top: number }) => {
+  return (
+    <div
+      // className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2"
+      className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 pointer-events-none"
+      style={{ top }}
+    >
+      <div
+        className="relative"
+        style={{ width: YEAR_LABEL_WIDTH, height: YEAR_MARKER_SIZE }}
+      >
+        {/* Full year behind the circle: visible outside the marker */}
+        <span
+          className="absolute inset-0 flex items-center justify-center font-display leading-none tracking-tight text-primary"
+          style={{ fontSize: `${YEAR_TEXT_SIZE}px` }}
+        >
+          {year}
+        </span>
+
+        {/* Circle */}
+        <div
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary"
+          style={{ width: YEAR_MARKER_SIZE, height: YEAR_MARKER_SIZE }}
+        />
+
+        {/* Same year again, but only visible inside the circle */}
+        <div
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full"
+          style={{ width: YEAR_MARKER_SIZE, height: YEAR_MARKER_SIZE }}
+        >
+          <span
+            className="absolute inset-0 flex items-center justify-center font-display leading-none tracking-tight text-white"
+            style={{ fontSize: `${YEAR_TEXT_SIZE}px` }}
+          >
+            {year}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Resume = () => {
   // Determine the full time range
@@ -154,7 +200,12 @@ const Resume = () => {
           <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border -translate-x-1/2" />
 
           {/* Year tick marks */}
-          {yearTicks.map((year) => {
+          {/* Year tick marks */}
+            {yearTicks.map((year) => {
+            const top = toTop(year);
+            return <YearMarker key={year} year={year} top={top} />;
+          })}
+          {/* {yearTicks.map((year) => {
             const top = toTop(year);
             return (
               <div
@@ -169,7 +220,7 @@ const Resume = () => {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
           {/* Entry cards */}
           {timelineEntries.map((entry, i) => {
@@ -184,7 +235,7 @@ const Resume = () => {
 
             const isLeft = entry.side === "left";
             // Card offset from center: gap for connector
-            const connectorLength = 20;
+            const connectorLength = 90;
             const cardLeft = isLeft
               ? `calc(50% - ${CARD_WIDTH + connectorLength + 4}px)`
               : `calc(50% + ${connectorLength + 4}px)`;
