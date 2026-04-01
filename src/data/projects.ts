@@ -134,7 +134,7 @@ export const projects: Project[] = [
       "Feedback design",
     ],
     tools: ["Unity", "TextMeshPro", "XR Interaction", "Local server APIs"],
-    image: "/public/thumbnails/Ratatouille_thumbnail.png",
+    image: "/thumbnails/Ratatouille_thumbnail.png",
     links: [
       { label: "GitHub", url: "https://github.com/aashnakulsh/Ratatouille" },
     ],
